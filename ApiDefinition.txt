@@ -1,0 +1,20 @@
+Standard Endpoint: /test
+
+	All information endpoint: /test/getPerson?name=jeffflake
+
+{
+	"id": "A000360",
+	"chamber": "senate|house",
+	"title": "Senator, 2nd Class",
+	"first_name": "Lamar",
+	"middle_name": null,
+	"last_name": "Alexander",
+	"party": "R",
+	"twitter_account": "SenAlexander",
+	"facebook_account": "senatorlamaralexander",
+	"youtube_account": "lamaralexander",
+	"url": "https://www.alexander.senate.gov/public/",
+	"contact_form": "http://www.alexander.senate.gov/public/index.cfm?p=Email",
+	"phone": "202-224-4944",
+	"state": "TN"
+}
