@@ -1,14 +1,23 @@
 import java.io.*;
 import java.net.*;
+import java.util.ArrayList;
+import java.util.List;
+
 import com.google.gson.Gson;
 
 class Main {
 
+	static List<Member> memberList = new ArrayList<Member>();
+	static Response senate, house;
+	
 	public static void main(String[] args) throws IOException {
 
 		getMembers("https://api.propublica.org/congress/v1/115/senate/members.json", "senate");
 		getMembers("https://api.propublica.org/congress/v1/115/house/members.json", "house");
-
+		
+		
+		Listener listener = new Listener(memberList);
+		
 	}
 
 	private static void getMembers(String apiUrl, String chamber) throws IOException {
@@ -37,5 +46,11 @@ class Main {
 
 		System.out.println(r.toString());
 		System.out.println(r.results.get(0).members.get(0).first_name);
+		
+		for (Member m : r.results.get(0).members) {
+			m.chamber = chamber;
+			memberList.add(m);
+		}
+		
 	}
 }
