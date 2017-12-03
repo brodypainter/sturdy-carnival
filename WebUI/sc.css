@@ -1,0 +1,115 @@
+html, #bootstrap-override {
+	padding:0;
+	margin:0;
+	min-height:100vh;
+}
+.navbar-fixed-top {
+	background:#FFF;
+}
+.margin-top-5em {
+	margin-top:5em;
+}
+
+#suggestions {
+	padding: 0 0 1em;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+
+}
+.suggestion {
+	cursor:pointer;
+	list-style-type:none;
+	font-size: 2em;
+	background-color:#FFF;
+	width:50%;
+	margin:0;
+	text-align:center;
+	padding:.5em 0;
+	border-width:2px;
+	border-style:solid;
+	border-color:transparent;
+}
+.suggestion:hover {
+	border-color:#474747;
+}
+
+.img-circle {
+	border-radius:100%;
+}
+
+p {
+	font-size:14pt
+}
+
+#person_img {
+	background-image:url("data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=");
+	height:15vmax;
+	width:15vmax;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#contact_name_input {
+	font-size:2em;
+	height:3em;
+}
+#input_name_label {
+	font-size:2em;
+	padding:0 1em;
+}
+
+#bootstrap-override .jumbotron {
+	background:#FFF;
+}
+
+footer {
+	text-align:center;
+	background:#474747;
+	margin-bottom:0;
+	color:#FFF;
+	bottom:0;
+	width:100%;
+	margin-top:50vh;
+}
+.center-me {
+	margin:auto;
+}
+
+#person_name {
+	font-size:2em;
+}
+
+.person_contact {
+	display:flex;
+	flex-direction:column;
+}
+
+.hide {
+	visibility:hidden;
+	display:none;
+}
+
+.social {
+	text-align:center;
+}
+
+.social img {
+	max-height:75px;
+	max-width:75px;
+}
+
+.flex-top small {
+	display: block;
+}
+
+.flex-top span {
+	font-weight:bold;
+	font-size:14pt;
+}
+
+.flex-mid {
+	padding:1em 0;
+}
+

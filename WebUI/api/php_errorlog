@@ -1,0 +1,23 @@
+[02-Dec-2017 12:45:25 CST6CDT] PHP Fatal error:  Cannot use try without catch or finally in /home/tanner26/public_html/sc/api/call_brody.php on line 4
+[02-Dec-2017 15:26:19 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/tanner26/public_html/sc/api/call_brody.php on line 5
+[02-Dec-2017 15:27:48 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function http_get() in /home/tanner26/public_html/sc/api/call_brody.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tanner26/public_html/sc/api/call_brody.php on line 6
+[02-Dec-2017 16:31:17 CST6CDT] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/tanner26/public_html/sc/api/call_brody.php on line 8
+[02-Dec-2017 16:31:29 CST6CDT] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/tanner26/public_html/sc/api/call_brody.php on line 8
+[02-Dec-2017 18:52:30 CST6CDT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/tanner26/public_html/sc/api/call_propublica.php on line 5
+[02-Dec-2017 18:52:39 CST6CDT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/tanner26/public_html/sc/api/call_propublica.php on line 5
+[02-Dec-2017 18:55:48 CST6CDT] PHP Parse error:  syntax error, unexpected 'Array' (T_ARRAY) in /home/tanner26/public_html/sc/api/call_propublica.php on line 16
+[02-Dec-2017 18:56:09 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/tanner26/public_html/sc/api/call_propublica.php on line 20
+[02-Dec-2017 19:07:29 CST6CDT] PHP Parse error:  syntax error, unexpected 'filemtime' (T_STRING) in /home/tanner26/public_html/sc/api/call_propublica.php on line 10
+[02-Dec-2017 19:07:37 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/tanner26/public_html/sc/api/call_propublica.php on line 14
+[02-Dec-2017 19:09:36 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/tanner26/public_html/sc/api/call_propublica.php on line 13
+[02-Dec-2017 19:13:28 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/tanner26/public_html/sc/api/call_brody.php on line 13
+[02-Dec-2017 19:14:32 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/tanner26/public_html/sc/api/call_brody.php on line 12
+[02-Dec-2017 19:14:40 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/tanner26/public_html/sc/api/call_brody.php on line 12
+[02-Dec-2017 19:25:14 CST6CDT] PHP Fatal error:  Cannot use [] for reading in /home/tanner26/public_html/sc/api/call_propublica.php on line 45
+[02-Dec-2017 19:32:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function checktime() in /home/tanner26/public_html/sc/api/call_propublica.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/tanner26/public_html/sc/api/call_propublica.php on line 3
